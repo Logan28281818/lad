@@ -1,0 +1,69 @@
+/* GENERAL: Define el estilo básico de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente legible y moderna */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
+    background-color: #f4f4f4; /* Fondo claro para evitar distracciones */
+    text-align: center; /* Centra el contenido */
+}
+
+/* HEADER: La primera impresión del usuario */
+header {
+    background-color: #007BFF; /* Azul para captar atención */
+    color: white; /* Contraste fuerte para resaltar el texto */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+/* SECCIÓN PRINCIPAL */
+section {
+    padding: 20px; /* Espaciado para separar visualmente el contenido */
+}
+
+/* Contenedor Call to Action (CTA) */
+.cta {
+    background-color: white; /* Fondo claro que resalta sobre el fondo gris */
+    padding: 30px; /* Espaciado interno */
+    margin: 20px auto; /* Centra el contenedor en la página */
+    max-width: 500px; /* Ancho limitado para mantener el foco en el contenido */
+    border-radius: 10px; /* Bordes suaves para un diseño moderno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto elevado */
+}
+
+/* Título y descripción dentro del CTA */
+.cta h2 {
+    color: #007BFF; /* Azul para resaltar el mensaje */
+}
+
+.cta p {
+    font-size: 18px; /* Tamaño adecuado para una lectura cómoda */
+    color: #333; /* Texto oscuro para buena legibilidad */
+}
+
+/* FORMULARIO */
+input[type="email"] {
+    width: 80%; /* Campo amplio para facilidad de uso */
+    padding: 10px; /* Espaciado interno para comodidad */
+    margin: 10px 0; /* Espaciado externo para separación */
+    border: 1px solid #ddd; /* Borde simple que no distrae */
+    border-radius: 5px; /* Bordes suaves para coherencia con el diseño */
+}
+
+button {
+    padding: 10px 20px; /* Tamaño cómodo para clics */
+    background-color: #007BFF; /* Color llamativo */
+    color: white; /* Contraste para resaltar texto */
+    border: none; /* Diseño minimalista */
+    border-radius: 5px; /* Bordes suaves */
+    cursor: pointer; /* Cambia el cursor para indicar acción */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambio de color para efecto visual */
+}
+
+/* FOOTER */
+footer {
+    background-color: #222; /* Fondo oscuro para diferenciarlo del resto */
+    color: white; /* Texto claro para contraste */
+    padding: 10px 0; /* Espaciado interno */
+}
